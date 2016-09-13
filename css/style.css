@@ -235,8 +235,8 @@ header h1 {
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: white;
-  border-radius: 0.25em;
+  background:rgba(255,255,255,0.95);
+  border-radius: 4px;
   padding: 1em;
 }
 .cd-timeline-content:after {
@@ -245,7 +245,8 @@ header h1 {
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+  color: #444;
+  font-size: 26px;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 20px;
@@ -268,7 +269,7 @@ header h1 {
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid white;
+  border-right: 7px solid rgba(255,255,255,0.95);
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
@@ -288,7 +289,7 @@ header h1 {
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: white;
+    border-left-color: rgba(255,255,255,0.95);
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
@@ -298,7 +299,7 @@ header h1 {
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: white;
+    border-right-color: rgba(255,255,255,0.95);
   }
   .cssanimations .cd-timeline-content.is-hidden {
     visibility: hidden;
