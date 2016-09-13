@@ -19,7 +19,7 @@ body {
   font-size: 100%;
   font-family: 'Ubuntu', sans-serif;
   color: #7f8c97;
-  background-color: #333;
+  background-color: #222;
 }
 
 a {
@@ -432,4 +432,36 @@ header h1 {
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+/* Snow */
+
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px;}
+  100% {background-position: 500px 1000px, 400px 400px;}
+}
+
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px;}
+  100% {background-position: 500px 1000px, 400px 400px;}
+}
+
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px;}
+  50% {background-color:#b4cfe0;}
+  100% {background-position: 500px 1000px, 400px 400px; 
+    background-color:#6b92b9;}
+  }
+
+@-ms-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px;}
+}
+
+.snow{
+    background-image: url('../img/snow/snow2.png'), url('../img/snow/snow3.png');
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
 }
