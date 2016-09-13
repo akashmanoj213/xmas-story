@@ -471,3 +471,14 @@ header h1 {
   font-size: 34px;
   color: #c00;
 }
+
+footer{
+  background-color: #111;
+}
+footer .credits{
+text-align: center;
+padding: 10px 0px;  
+}
+a.gwc{
+  color: #33BB77;
+}
