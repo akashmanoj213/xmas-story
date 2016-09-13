@@ -59,14 +59,15 @@ Main components
 
 -------------------------------- */
 header {
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
-  background: #303e49;
+  padding: 250px 80px;
+  background-image: url('../img/crib.jpg');
+  background-size: cover;
+  background-position: center center;
+  /* line-height: 200px; */
 }
 header h1 {
   color: white;
-  font-size: 18px;
+  font-size: 64px;
 }
 @media only screen and (min-width: 1170px) {
   header {
@@ -74,7 +75,7 @@ header h1 {
     line-height: 300px;
   }
   header h1 {
-    font-size: 24px;
+    font-size: 82px;
   }
 }
 
@@ -96,8 +97,8 @@ header h1 {
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   #cd-timeline::before {
     left: 50%;
@@ -150,8 +151,8 @@ header h1 {
   margin-left: -12px;
   margin-top: -12px;
 }
-.cd-timeline-img.cd-picture {
-  background: #75ce66;
+.cd-timeline-img.cd-snow {
+  background: rgba(48,48,48,0.95);
 }
 
 @media only screen and (min-width: 1170px) {
