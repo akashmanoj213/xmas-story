@@ -462,18 +462,34 @@ header h1 {
     -ms-animation: snow 10s linear infinite;
     animation: snow 10s linear infinite;
 }
-
 #happy-xmas h3{
   font-size: 34px;
   color: #c00;
 }
 
+/* Social */
+#social-box h3{
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #555;
+}
+.social{
+  width: 100%;
+}
+.social .link{
+  position: relative;
+  float: left;
+  width:20%;
+  padding:20px;
+}
 footer{
   background-color: #111;
 }
+
+/* Footer */
 footer .credits{
-text-align: center;
-padding: 10px 30px;  
+  text-align: center;
+  padding: 10px 30px;  
 }
 a.gwc{
   color: #33BB77;
