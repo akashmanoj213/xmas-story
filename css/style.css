@@ -445,9 +445,7 @@ header h1 {
 
 @-webkit-keyframes snow {
   0% {background-position: 0px 0px, 0px 0px;}
-  50% {background-color:#b4cfe0;}
-  100% {background-position: 500px 1000px, 400px 400px; 
-    background-color:#6b92b9;}
+  100% {background-position: 500px 1000px, 400px 400px; }
   }
 
 @-ms-keyframes snow {
@@ -456,12 +454,14 @@ header h1 {
 }
 
 .snow{
+    background-color: black;
     background-image: url('../img/snow/snow2.png'), url('../img/snow/snow3.png');
     -webkit-animation: snow 10s linear infinite;
     -moz-animation: snow 10s linear infinite;
     -ms-animation: snow 10s linear infinite;
     animation: snow 10s linear infinite;
 }
+
 #happy-xmas h3{
   font-size: 34px;
   color: #c00;
