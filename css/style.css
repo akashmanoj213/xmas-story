@@ -446,20 +446,20 @@ header h1 {
 @-webkit-keyframes snow {
   0% {background-position: 0px 0px, 0px 0px;}
   100% {background-position: 500px 1000px, 400px 400px; }
-  }
+}
 
 @-ms-keyframes snow {
-    0% {background-position: 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px;}
+  0% {background-position: 0px 0px, 0px 0px;}
+  100% {background-position: 500px 1000px, 400px 400px;}
 }
 
 .snow{
-    background-color: black;
-    background-image: url('../img/snow/snow2.png'), url('../img/snow/snow3.png');
-    -webkit-animation: snow 10s linear infinite;
-    -moz-animation: snow 10s linear infinite;
-    -ms-animation: snow 10s linear infinite;
-    animation: snow 10s linear infinite;
+  background-color: black;
+  background-image: url('../img/snow/snow2.png'), url('../img/snow/snow3.png');
+  -webkit-animation: snow 10s linear infinite;
+  -moz-animation: snow 10s linear infinite;
+  -ms-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
 }
 
 #happy-xmas h3{
@@ -489,8 +489,16 @@ footer{
 /* Footer */
 footer .credits{
   text-align: center;
-  padding: 10px 30px;  
+  padding: 10px 30px;
+  font-size: 14px;
 }
 a.gwc{
   color: #33BB77;
+}
+
+/* Mobile CSS */
+@media only screen and (max-width : 768px) {
+  .social .link{
+    padding: 10px;
+  } 
 }
