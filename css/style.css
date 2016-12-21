@@ -482,9 +482,7 @@ header h1 {
   width:20%;
   padding:20px;
 }
-footer{
-  background-color: #111;
-}
+
 
 /* Footer */
 footer .credits{
@@ -494,6 +492,9 @@ footer .credits{
 }
 a.gwc{
   color: #33BB77;
+}
+footer{
+  background-color: #111;
 }
 
 /* Mobile CSS */
